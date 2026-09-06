@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\IliyaV\\Project\\Projection IS 1.1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DB5A564D-ADE9-4FC3-9CC7-9AAD64375CFB}|Projection IS 1.1\\Projection IS 1.1.csproj|c:\\users\\iliyav\\project\\projection is 1.1\\projection is 1.1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB5A564D-ADE9-4FC3-9CC7-9AAD64375CFB}|Projection IS 1.1\\Projection IS 1.1.csproj|solutionrelative:projection is 1.1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\IliyaV\\Project\\Projection IS 1.1\\Projection IS 1.1\\Program.cs",
+              "RelativeDocumentMoniker": "Projection IS 1.1\\Program.cs",
+              "ToolTip": "C:\\Users\\IliyaV\\Project\\Projection IS 1.1\\Projection IS 1.1\\Program.cs",
+              "RelativeToolTip": "Projection IS 1.1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-06T06:03:45.424Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
