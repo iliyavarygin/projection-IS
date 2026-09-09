@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Projection IS 1.1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d12aaf501793becf01c3f59d1fb07339b9bf7079")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0f778b53cc13ec6fa2fff2292b5e785506195bcc")]
 [assembly: System.Reflection.AssemblyProductAttribute("Projection IS 1.1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Projection IS 1.1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
