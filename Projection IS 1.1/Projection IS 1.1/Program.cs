@@ -1,4 +1,6 @@
-﻿namespace Projection_IS_1._1
+﻿using System.IO;
+
+namespace Projection_IS_1._1
 {
     public class CarPassRecord
     {
@@ -28,7 +30,7 @@
             string[] dateParts = dateString.Split('.');
             if (dateParts.Length != 3)
             {
-                throw new ArgumentException($"Некорректный формат даты: {dateString}");
+                throw new ArgumentException($"Неправильный формат даты: {dateString}");
             }
             int year = int.Parse(dateParts[0]);
             int month = int.Parse(dateParts[1]);
@@ -40,25 +42,21 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Введите данные в формате: гггг.мм.дд номер_автомобиля");
-            while (true)
+            string path = "input.txt";
+            string[] lines = File.ReadAllLines(path);
+            for (int i = 0; i < lines.Length; i++)
             {
-                Console.Write("Введите данные: ");
-                string input = Console.ReadLine();
-                if (string.IsNullOrEmpty(input))
-                {
+                string line = lines[i].Trim();
+                if (string.IsNullOrEmpty(line))
                     continue;
-                }
                 try
                 {
-                    CarPassRecord record = CarPassParser.Parse(input);
-                    Console.WriteLine("Результат:");
-                    Console.WriteLine(record);
-                    Console.WriteLine();
+                    CarPassRecord record = CarPassParser.Parse(line);
+                    Console.WriteLine($"Строка {i + 1}: {record}");
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine($"Ошибка: {ex.Message}");
+                    Console.WriteLine($"Строка {i + 1}: Ошибка — {ex.Message}");
                 }
             }
         }
