@@ -6,26 +6,30 @@ namespace Projection_IS_1._1
     {
         public DateTime Date { get; set; }
         public string LicensePlate { get; set; }
-        public CarPassRecord(DateTime date, string licensePlate)
+        public bool Nar { get; set; }
+        public CarPassRecord(DateTime date, string licensePlate, bool hasnar)
         {
             Date = date;
             LicensePlate = licensePlate;
+            Nar = hasnar;
         }
         public override string ToString()
         {
-            return $"Фиксация проезда: Дата = {Date:yyyy.MM.dd}, Номер = {LicensePlate}";
+            string status = Nar ? "нарушитель" : "не нарушитель";
+            return $"Фиксация проезда: Дата = {Date:yyyy.MM.dd}, Номер = {LicensePlate} - {status}";
         }
     }
     public class CarPassParser
     {
-        public static CarPassRecord Parse (string input)
+        public static CarPassRecord Parse(string input)
         {
             string[] parts = input.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
             DateTime date = ParseDate(parts[0]);
             string licensePlate = parts[1];
-            return new CarPassRecord(date, licensePlate);
+            bool hasnar = parts[parts.Length - 1] == "1";
+            return new CarPassRecord(date, licensePlate, hasnar);
         }
-        private static DateTime ParseDate(string dateString)
+        public static DateTime ParseDate(string dateString)
         {
             string[] dateParts = dateString.Split('.');
             if (dateParts.Length != 3)
@@ -40,25 +44,46 @@ namespace Projection_IS_1._1
     }
     class Program
     {
+        static void RemoveCar(List<CarPassRecord> records)
+        {
+            for (int k = 0; k < 2; k++)
+            {
+                int minIndex = -1;
+                for (int i = 0; i < records.Count; i++)
+                {
+                    if (!records[i].Nar)
+                        continue;
+                    if (minIndex == -1 || records[i].Date.Year < records[minIndex].Date.Year)
+                        minIndex = i;
+                }
+                if (minIndex == -1)
+                    break;
+                records.RemoveAt(minIndex);
+            }
+        }
         static void Main(string[] args)
         {
             string path = "input.txt";
             string[] lines = File.ReadAllLines(path);
-            for (int i = 0; i < lines.Length; i++)
+            List<CarPassRecord> records = new List<CarPassRecord>();
+            foreach (string line in lines)
             {
-                string line = lines[i].Trim();
-                if (string.IsNullOrEmpty(line))
+                string trimmed = line.Trim();
+                if (string.IsNullOrEmpty(trimmed))
                     continue;
                 try
                 {
-                    CarPassRecord record = CarPassParser.Parse(line);
-                    Console.WriteLine($"Строка {i + 1}: {record}");
+                    records.Add(CarPassParser.Parse(trimmed));
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine($"Строка {i + 1}: Ошибка — {ex.Message}");
+                    Console.WriteLine($"Пропущена строка: {ex.Message}");
                 }
             }
+            RemoveCar(records);
+            foreach (var r in records)
+                Console.WriteLine(r);
+            Console.ReadKey();
         }
     }
 }
