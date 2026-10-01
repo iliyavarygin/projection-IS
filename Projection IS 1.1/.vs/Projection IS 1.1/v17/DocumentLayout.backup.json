@@ -5,6 +5,34 @@
     {
       "AbsoluteMoniker": "D:0:0:{DB5A564D-ADE9-4FC3-9CC7-9AAD64375CFB}|Projection IS 1.1\\Projection IS 1.1.csproj|c:\\users\\iliyav\\project\\projection is 1.1\\projection is 1.1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DB5A564D-ADE9-4FC3-9CC7-9AAD64375CFB}|Projection IS 1.1\\Projection IS 1.1.csproj|solutionrelative:projection is 1.1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB5A564D-ADE9-4FC3-9CC7-9AAD64375CFB}|Projection IS 1.1\\Projection IS 1.1.csproj|c:\\users\\iliyav\\project\\projection is 1.1\\projection is 1.1\\parser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB5A564D-ADE9-4FC3-9CC7-9AAD64375CFB}|Projection IS 1.1\\Projection IS 1.1.csproj|solutionrelative:projection is 1.1\\parser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB5A564D-ADE9-4FC3-9CC7-9AAD64375CFB}|Projection IS 1.1\\Projection IS 1.1.csproj|c:\\users\\iliyav\\project\\projection is 1.1\\projection is 1.1\\linebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB5A564D-ADE9-4FC3-9CC7-9AAD64375CFB}|Projection IS 1.1\\Projection IS 1.1.csproj|solutionrelative:projection is 1.1\\linebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB5A564D-ADE9-4FC3-9CC7-9AAD64375CFB}|Projection IS 1.1\\Projection IS 1.1.csproj|c:\\users\\iliyav\\project\\projection is 1.1\\projection is 1.1\\reader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB5A564D-ADE9-4FC3-9CC7-9AAD64375CFB}|Projection IS 1.1\\Projection IS 1.1.csproj|solutionrelative:projection is 1.1\\reader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB5A564D-ADE9-4FC3-9CC7-9AAD64375CFB}|Projection IS 1.1\\Projection IS 1.1.csproj|c:\\users\\iliyav\\project\\projection is 1.1\\projection is 1.1\\printer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB5A564D-ADE9-4FC3-9CC7-9AAD64375CFB}|Projection IS 1.1\\Projection IS 1.1.csproj|solutionrelative:projection is 1.1\\printer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB5A564D-ADE9-4FC3-9CC7-9AAD64375CFB}|Projection IS 1.1\\Projection IS 1.1.csproj|c:\\users\\iliyav\\project\\projection is 1.1\\projection is 1.1\\recordcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB5A564D-ADE9-4FC3-9CC7-9AAD64375CFB}|Projection IS 1.1\\Projection IS 1.1.csproj|solutionrelative:projection is 1.1\\recordcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB5A564D-ADE9-4FC3-9CC7-9AAD64375CFB}|Projection IS 1.1\\Projection IS 1.1.csproj|c:\\users\\iliyav\\project\\projection is 1.1\\projection is 1.1\\recordspecialcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB5A564D-ADE9-4FC3-9CC7-9AAD64375CFB}|Projection IS 1.1\\Projection IS 1.1.csproj|solutionrelative:projection is 1.1\\recordspecialcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB5A564D-ADE9-4FC3-9CC7-9AAD64375CFB}|Projection IS 1.1\\Projection IS 1.1.csproj|c:\\users\\iliyav\\project\\projection is 1.1\\projection is 1.1\\recordtruck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB5A564D-ADE9-4FC3-9CC7-9AAD64375CFB}|Projection IS 1.1\\Projection IS 1.1.csproj|solutionrelative:projection is 1.1\\recordtruck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,9 +52,100 @@
               "RelativeDocumentMoniker": "Projection IS 1.1\\Program.cs",
               "ToolTip": "C:\\Users\\IliyaV\\Project\\Projection IS 1.1\\Projection IS 1.1\\Program.cs",
               "RelativeToolTip": "Projection IS 1.1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-06T06:03:45.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LineBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\IliyaV\\Project\\Projection IS 1.1\\Projection IS 1.1\\LineBuilder.cs",
+              "RelativeDocumentMoniker": "Projection IS 1.1\\LineBuilder.cs",
+              "ToolTip": "C:\\Users\\IliyaV\\Project\\Projection IS 1.1\\Projection IS 1.1\\LineBuilder.cs",
+              "RelativeToolTip": "Projection IS 1.1\\LineBuilder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-01T05:12:17.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Reader.cs",
+              "DocumentMoniker": "C:\\Users\\IliyaV\\Project\\Projection IS 1.1\\Projection IS 1.1\\Reader.cs",
+              "RelativeDocumentMoniker": "Projection IS 1.1\\Reader.cs",
+              "ToolTip": "C:\\Users\\IliyaV\\Project\\Projection IS 1.1\\Projection IS 1.1\\Reader.cs",
+              "RelativeToolTip": "Projection IS 1.1\\Reader.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-01T05:09:37.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Printer.cs",
+              "DocumentMoniker": "C:\\Users\\IliyaV\\Project\\Projection IS 1.1\\Projection IS 1.1\\Printer.cs",
+              "RelativeDocumentMoniker": "Projection IS 1.1\\Printer.cs",
+              "ToolTip": "C:\\Users\\IliyaV\\Project\\Projection IS 1.1\\Projection IS 1.1\\Printer.cs",
+              "RelativeToolTip": "Projection IS 1.1\\Printer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-01T05:05:01.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Parser.cs",
+              "DocumentMoniker": "C:\\Users\\IliyaV\\Project\\Projection IS 1.1\\Projection IS 1.1\\Parser.cs",
+              "RelativeDocumentMoniker": "Projection IS 1.1\\Parser.cs",
+              "ToolTip": "C:\\Users\\IliyaV\\Project\\Projection IS 1.1\\Projection IS 1.1\\Parser.cs",
+              "RelativeToolTip": "Projection IS 1.1\\Parser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-01T04:47:25.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RecordCar.cs",
+              "DocumentMoniker": "C:\\Users\\IliyaV\\Project\\Projection IS 1.1\\Projection IS 1.1\\RecordCar.cs",
+              "RelativeDocumentMoniker": "Projection IS 1.1\\RecordCar.cs",
+              "ToolTip": "C:\\Users\\IliyaV\\Project\\Projection IS 1.1\\Projection IS 1.1\\RecordCar.cs",
+              "RelativeToolTip": "Projection IS 1.1\\RecordCar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T15:24:04.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RecordSpecialCar.cs",
+              "DocumentMoniker": "C:\\Users\\IliyaV\\Project\\Projection IS 1.1\\Projection IS 1.1\\RecordSpecialCar.cs",
+              "RelativeDocumentMoniker": "Projection IS 1.1\\RecordSpecialCar.cs",
+              "ToolTip": "C:\\Users\\IliyaV\\Project\\Projection IS 1.1\\Projection IS 1.1\\RecordSpecialCar.cs",
+              "RelativeToolTip": "Projection IS 1.1\\RecordSpecialCar.cs",
+              "ViewState": "AgIAAAEAAAAAiBNcRIInwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T16:40:10.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RecordTruck.cs",
+              "DocumentMoniker": "C:\\Users\\IliyaV\\Project\\Projection IS 1.1\\Projection IS 1.1\\RecordTruck.cs",
+              "RelativeDocumentMoniker": "Projection IS 1.1\\RecordTruck.cs",
+              "ToolTip": "C:\\Users\\IliyaV\\Project\\Projection IS 1.1\\Projection IS 1.1\\RecordTruck.cs",
+              "RelativeToolTip": "Projection IS 1.1\\RecordTruck.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T16:33:39.658Z",
               "EditorCaption": ""
             }
           ]
